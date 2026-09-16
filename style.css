@@ -72,13 +72,15 @@ header {
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
-    margin: 40px;
+    margin: 40px 200px;
+    padding: 20px 40px;
 }
 
 .numerocaixa {
     display: flex;
     flex-direction: column;
     align-items: start;
+    text-align: center;
 }
 
 .numeroca {
@@ -90,4 +92,68 @@ header {
 .textoca {
     margin-top: 8px;
     font-size: 14px;
+}
+
+#caixa2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin: 40px 150px;
+    padding: 20px 40px;
+}
+
+#projetos {
+    font-size: 30px;
+    margin-left: 300px;
+    font-weight: bold;
+}
+
+.quadrados2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 8px;
+    height: 180px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.nomezinho {
+    color: rgb(73, 209, 209);
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: rgb(243, 240, 240);
+    border-radius: 8px;
+    padding-right: 10px;
+}
+
+.titulomini {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.textozinho {
+    color: rgb(103, 102, 102);
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.ht {
+    position: relative;
+    margin-top: 50px;
+
+}
+.ht::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;                                            /* Usei chat aqui */
+  top: -25px; 
+  height: 1px;
+  background: black;
 }
