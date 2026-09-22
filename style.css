@@ -68,11 +68,10 @@ header {
 
 #caixas {
     display: flex;
-    background-color: gray;
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
-    margin: 40px 200px;
+    margin: 40px 150px;
     padding: 20px 40px;
 }
 
@@ -80,18 +79,30 @@ header {
     display: flex;
     flex-direction: column;
     align-items: start;
-    text-align: center;
+    border-radius: 8px;
+    height: 180px;
+    border: 1px solid black;
+    padding: 10px;
 }
 
 .numeroca {
-    font-size: 18px;
+    
     font-weight: bold;
-    margin: 0px;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: rgb(243, 240, 240);
+    border-radius: 8px;
+    padding-right: 10px;
 }
 
 .textoca {
-    margin-top: 8px;
+    display: flex;
+    color: rgb(103, 102, 102);
+    font-weight: bold;
     font-size: 14px;
+    margin-top: 10px;
+    height: 50px;
+    width: 150px;
 }
 
 #caixa2 {
