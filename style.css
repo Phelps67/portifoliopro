@@ -86,7 +86,7 @@ header {
 }
 
 .numeroca {
-    
+
     font-weight: bold;
     padding-left: 10px;
     font-size: 15px;
@@ -167,4 +167,40 @@ header {
   top: -25px; 
   height: 1px;
   background: black;
+}
+#palavra2{
+    font-weight: bold;
+    color: black;
+    margin-left: 300px;
+    font-size: 30px;
+}
+#divfinal{
+    margin-top: 30px;
+    display: flex;
+    gap: 100px;
+    font-size: 20px;
+    justify-content: center;
+}
+.nomefinal{
+    gap: px;
+    height: 30px;
+}
+#final{
+    text-decoration: overline 1px solid black;
+    display: flex;
+    margin-top: 30px;
+}
+#prim{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#sec{
+    background-color: lightgray;
+    color: black;
+    border-radius: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
